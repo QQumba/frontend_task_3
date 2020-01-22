@@ -1,0 +1,69 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+ justify-content: space-between;
+}
+
+.item{
+	display: inline-flex;
+	flex-direction: column;
+	height: 150px;
+	width: 24%;
+	border: 1px solid darkgrey;
+	margin: 3px;
+	padding: 3px;
+}
+
+.price{
+	display: inline-block;
+}
+
+.item img{
+	align-self: center;
+	height: 64px;
+	width: 64px;
+}
+
+.old-price{
+	text-decoration: line-through;
+	font-size: 9pt;
+	padding-left: 15px; 
+}
+
+.new-price{
+	display: inline;
+	color: red;
+}
+
+.item a{
+	display: block;
+	text-decoration: none;
+}
+
+header{
+	height: 80px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+header h1{
+	align-self: center;
+	font-size: 34pt;
+	padding-left: 50px;
+}
+
+footer{
+	background-color: #25221f;
+	height: 80px;
+	color: white;
+}
+
+footer h2{
+	padding-top: 20px;
+	padding-left: 50px;
+}
